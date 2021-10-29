@@ -1,0 +1,12 @@
+{"name": "Aurora New Tab",
+"description": "Ich liebe die Bevormundung durch eine Website!\nDie Extension geht nur auf den Seiten von den Challenges, kann man aber im manifest ändern",
+"version": "69.420",
+"manifest_version": 3,
+"icons": { "16": "icon16.png"},
+"content_scripts": [
+    {
+        "matches":["*://*.iguw.tuwien.ac.at/a*"],
+        "js": ["changeLinks.js"]
+    }
+    ]
+}
