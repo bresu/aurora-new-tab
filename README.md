@@ -30,7 +30,7 @@ open Chrome and go to `chrome://extensions/`
 
 in th left upper corner click on `Load unpacked`
 
-select the (whole) folder you just cloned
+select the folder `aurora new tab` in the folder you just cloned
 
 Enable and enjoy!
 
